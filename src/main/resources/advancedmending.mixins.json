@@ -1,11 +1,9 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "nichrosia.advancedmending.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "MixinPlayerEntity"
   ],
   "injectors": {
     "defaultRequire": 1
